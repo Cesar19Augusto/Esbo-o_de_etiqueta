@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta sedex</title>
+</head>
+<!--所有作为 TESTE 的内容将通过 API 用正确的数据进行更改-->
+<body style="background-color: rgb(43, 43, 43);">
+    <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <div class="quadrado" style="width: 498px; height:750px; background-color: rgb(255, 255, 255); position: relative;">
+            <div class="faixa" style="width: calc(100% - 20px); height: calc(100% - 20px); background-color: rgb(255, 255, 255); position: absolute; top: 10px; left: 10px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <!--Bordas laterais-->
+                <div style="width: calc(100% - 10px); height: calc(100% - 10px); border: 2px solid rgb(43, 43, 43);">
+                    <!--Logo-->
+                    <div style="width: 180px; position: absolute; top: 10px; right: -50px;"><img src="../imagem/logo.png" alt="logo" style="width: 58%;"></div>
+                    <!--Dados da entrega-->
+                    <img src="../imagem/Captura de tela 2024-05-17 092400.png" alt="QRCODE" style="POSITION: ABSOLUTE;width: 142px;left: 32%;">
+                    <p style="position: absolute;top: 15%;left: 5%;">Contrato: Teste</p>
+                    <p style="position: absolute;top: 15%;left: 60%;">Peso (g): Teste</p>
+                    <img src="../imagem/Codigo de barra 1.png" alt="Codigo de barra 1" style="position: absolute;top: 22%;">
+                    <p style="position: absolute;top: 23%;left: 71%;">VD</p>
+                    <!--Dados do recebedor-->
+                    <div style="width: 77%;height: 0px;border-top: 1px solid black;position: absolute;top: 44%;left: 77px;transform: translateY(-50%);"></div>
+                    <p style="position: absolute;top: 40%;font-size: 13px;left: 15px;color: black;">Recebedor</p>
+                    <div style="width: 29%;height: 0px;border-top: 1px solid black;position: absolute;top: 48%;left: 79px;transform: translateY(-50%);"></div>
+                    <p style="position: absolute;top: 44%;left: 15px;font-size: 13px;color: black;">Assinatura</p>
+                    <div style="width: 29%;height: 0px;border-top: 1px solid black;position: absolute;top: 48%;left: 64%;transform: translateY(-50%);"></div>
+                    <p style="position: absolute;top: 44%;left: 50%;font-size: 13px;color: black;">Documento</p>
+                    <!--Linha pontilhada ao centro-->
+                    <div style="width: 98%; height: 0; border-top: 1px dashed black; position: absolute; top: 50%; transform: translateY(-50%);"></div>
+                    <!-- Quadrado preto com texto -->
+                    <div style="width: 150px; height: 30px; background-color: black; color: white; position: absolute; top: 52%; transform: translateY(-50%);"><p style="font-size: 20px;position: absolute;top: -15px;left: 24px;">Destinatário</p></div>
+                    <!--Escrita para ser personalizada-->
+                    <p style="position: absolute; top: 54%;">Teste</p>
+                    <p style="position: absolute; top: 56%;">Teste</p>
+                    <p style="position: absolute; top: 59%;">Teste</p>
+                    <p style="position: absolute; top: 61%;">Teste</p>
+                    <img src="../imagem/codigo de barra 2.png" alt="Codigo de barra 2" style="position: absolute;top: 66%;left: 4%;">
+                    <!--Linha pontilhada ao final-->
+                    <div style="width: 98%; height: 0; border-top: 1px dashed black; position: absolute; top: 80%; transform: translateY(-50%);"></div>
+                    <!--Escrita para ser personalizada-->
+                    <p style="position: absolute; top: 78%;">REMETENTE: Teste</p>
+                    <p style="position: absolute; top: 80%;">Teste</p>
+                    <p style="position: absolute; top: 82%;">Teste</p>
+                    <p style="position: absolute; top: 84%;">Teste</p>
+                    <!--Linha reta ao final-->
+                    <div style="width: 98%; height: 0; border-top: 1px solid black; position: absolute; top: 95%; transform: translateY(-50%);"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
